@@ -14,12 +14,18 @@ struct FrameworksGridView: View {
                                GridItem(.flexible())]
     
     var body: some View {
-        LazyVGrid(columns: columns){
-            ForEach(MockData.frameworks) { framework in
-                FrameworkTitleView(framework: framework)
+        NavigationView{
+            ScrollView{
+                LazyVGrid(columns: columns){
+                    ForEach(MockData.frameworks) { framework in
+                        FrameworkTitleView(framework: framework)
+                    }
+                    
+                }
             }
-            
+            .navigationTitle("🍎 Frameworks")
         }
+        
     }
 }
 
@@ -43,7 +49,9 @@ struct FrameworkTitleView: View {
             Text(framework.name)
                 .font(.title2)
                 .fontWeight(.semibold)
+                .scaledToFit()
                 .minimumScaleFactor(0.6)
         }
+        .padding()
     }
 }
