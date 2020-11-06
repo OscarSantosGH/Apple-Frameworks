@@ -22,13 +22,7 @@ struct FrameworkDetailView: View {
             Button {
                 
             } label: {
-                Text("Learn More")
-                    .font(.title2)
-                    .fontWeight(.semibold)
-                    .foregroundColor(.white)
-                    .frame(width: 280, height: 50)
-                    .background(Color.red)
-                    .cornerRadius(10)
+                AFButton(title: "Learn More")
             }
         }
         
