@@ -12,6 +12,7 @@
 		83E81FDF2552C0C4009D833E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83E81FDE2552C0C4009D833E /* Preview Assets.xcassets */; };
 		83E81FE82552C357009D833E /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E81FE72552C357009D833E /* Framework.swift */; };
 		83E81FEC2552C47F009D833E /* FrameworksGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E81FEB2552C47F009D833E /* FrameworksGridView.swift */; };
+		83E81FF02554C69A009D833E /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E81FEF2554C69A009D833E /* FrameworkDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		83E81FE02552C0C4009D833E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83E81FE72552C357009D833E /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
 		83E81FEB2552C47F009D833E /* FrameworksGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworksGridView.swift; sourceTree = "<group>"; };
+		83E81FEF2554C69A009D833E /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				83E81FD72552C0C0009D833E /* Apple_FrameworksApp.swift */,
 				83E81FEB2552C47F009D833E /* FrameworksGridView.swift */,
 				83E81FE72552C357009D833E /* Framework.swift */,
+				83E81FEF2554C69A009D833E /* FrameworkDetailView.swift */,
 				83E81FDB2552C0C4009D833E /* Assets.xcassets */,
 				83E81FE02552C0C4009D833E /* Info.plist */,
 				83E81FDD2552C0C4009D833E /* Preview Content */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83E81FF02554C69A009D833E /* FrameworkDetailView.swift in Sources */,
 				83E81FEC2552C47F009D833E /* FrameworksGridView.swift in Sources */,
 				83E81FE82552C357009D833E /* Framework.swift in Sources */,
 				83E81FD82552C0C0009D833E /* Apple_FrameworksApp.swift in Sources */,
