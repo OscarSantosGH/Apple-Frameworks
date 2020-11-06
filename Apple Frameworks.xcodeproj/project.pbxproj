@@ -14,6 +14,7 @@
 		83E81FEC2552C47F009D833E /* FrameworksGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E81FEB2552C47F009D833E /* FrameworksGridView.swift */; };
 		83E81FF02554C69A009D833E /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E81FEF2554C69A009D833E /* FrameworkDetailView.swift */; };
 		83E81FF42554CA8B009D833E /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E81FF32554CA8B009D833E /* AFButton.swift */; };
+		83E81FF8255611EF009D833E /* FrameworksGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E81FF7255611EF009D833E /* FrameworksGridViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		83E81FEB2552C47F009D833E /* FrameworksGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworksGridView.swift; sourceTree = "<group>"; };
 		83E81FEF2554C69A009D833E /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
 		83E81FF32554CA8B009D833E /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
+		83E81FF7255611EF009D833E /* FrameworksGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworksGridViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				83E81FD72552C0C0009D833E /* Apple_FrameworksApp.swift */,
+				83E81FF7255611EF009D833E /* FrameworksGridViewModel.swift */,
 				83E81FEB2552C47F009D833E /* FrameworksGridView.swift */,
 				83E81FE72552C357009D833E /* Framework.swift */,
 				83E81FEF2554C69A009D833E /* FrameworkDetailView.swift */,
@@ -152,6 +155,7 @@
 				83E81FE82552C357009D833E /* Framework.swift in Sources */,
 				83E81FF42554CA8B009D833E /* AFButton.swift in Sources */,
 				83E81FD82552C0C0009D833E /* Apple_FrameworksApp.swift in Sources */,
+				83E81FF8255611EF009D833E /* FrameworksGridViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
