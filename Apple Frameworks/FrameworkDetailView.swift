@@ -10,9 +10,24 @@ import SwiftUI
 struct FrameworkDetailView: View {
     var framework: Framework
     var body: some View {
-        VStack{
+        VStack {
+            HStack {
+                Spacer()
+                Button {
+                    
+                } label: {
+                    Image(systemName: "xmark")
+                        .imageScale(.large)
+                        .foregroundColor(Color(.label))
+                        .frame(width: 44, height: 44)
+                }
+            }
+            .padding()
+            
             Spacer()
+            
             FrameworkTitleView(framework: framework)
+            
             Text(framework.description)
                 .font(.body)
                 .padding()
@@ -32,5 +47,6 @@ struct FrameworkDetailView: View {
 struct FrameworkDetailView_Previews: PreviewProvider {
     static var previews: some View {
         FrameworkDetailView(framework: MockData.sampleFramework)
+            .preferredColorScheme(.dark)
     }
 }
