@@ -17,6 +17,7 @@
 		83E81FF8255611EF009D833E /* FrameworksGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E81FF7255611EF009D833E /* FrameworksGridViewModel.swift */; };
 		83E81FFC2556370B009D833E /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E81FFB2556370B009D833E /* SafariView.swift */; };
 		83E8200025563F96009D833E /* FrameworkTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E81FFF25563F96009D833E /* FrameworkTitleView.swift */; };
+		83E82005255640CB009D833E /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E82004255640CB009D833E /* XDismissButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		83E81FF7255611EF009D833E /* FrameworksGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworksGridViewModel.swift; sourceTree = "<group>"; };
 		83E81FFB2556370B009D833E /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		83E81FFF25563F96009D833E /* FrameworkTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkTitleView.swift; sourceTree = "<group>"; };
+		83E82004255640CB009D833E /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				83E81FEB2552C47F009D833E /* FrameworksGridView.swift */,
 				83E81FFF25563F96009D833E /* FrameworkTitleView.swift */,
 				83E81FE72552C357009D833E /* Framework.swift */,
+				83E82004255640CB009D833E /* XDismissButton.swift */,
 				83E81FEF2554C69A009D833E /* FrameworkDetailView.swift */,
 				83E81FFB2556370B009D833E /* SafariView.swift */,
 				83E81FF32554CA8B009D833E /* AFButton.swift */,
@@ -158,6 +161,7 @@
 			files = (
 				83E81FF02554C69A009D833E /* FrameworkDetailView.swift in Sources */,
 				83E81FEC2552C47F009D833E /* FrameworksGridView.swift in Sources */,
+				83E82005255640CB009D833E /* XDismissButton.swift in Sources */,
 				83E81FE82552C357009D833E /* Framework.swift in Sources */,
 				83E81FF42554CA8B009D833E /* AFButton.swift in Sources */,
 				83E81FD82552C0C0009D833E /* Apple_FrameworksApp.swift in Sources */,
